@@ -90,7 +90,7 @@ def print_table_fflog(first_name, last_name, server):
     print(first_name, last_name, ',', server, ',' , diff, additional_jobs)
     print()
     print(log_table)
-    print('===================================================')
+    print('==========================================================')
 
     
 def get_name_server(chat_msg):
@@ -124,6 +124,8 @@ def get_name_server(chat_msg):
 ########################################################################################################################  
 # start here , paste in chat msg
 chat_msg = input('insert chat:')
+print('***************************************************')
+print('***************************************************')
 
 people_to_lookup = get_name_server(chat_msg)
 
